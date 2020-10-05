@@ -5,12 +5,6 @@ import classes from './Todos.module.scss'
 import Axios from 'axios';
 
 const Todos = (props) => {
-    const list = [
-        {text: "faire la vaisselle", done: false},
-        {text: "faire la cusine", done: true},
-        {text: "jouer", done: false},
-    ]
-
     const [todos, setTodos] = useState(null)
     
     useEffect(() => {

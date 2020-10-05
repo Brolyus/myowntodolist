@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import TodoFields from '../../components/TodoFields/TodoFields';
 import ValidateButton from '../../components/UI/ValidateButton/ValidateButton'
 import axios from 'axios'
